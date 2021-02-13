@@ -1,0 +1,107 @@
+body {
+  background-color: white;
+  /* AQUI COMIENZA GRID*/
+  /* AQUI EMPIEZAN LAS TRANSICIONES*/
+  /*TIPOGRAFIA*/ }
+  body .menu--fondo {
+    background-color: gray;
+    border: solid black; }
+    body .menu--fondo .menu__item--display {
+      padding: 10px 30px;
+      display: inline-block; }
+  body .productos {
+    text-align: center;
+    background-color: blue;
+    font-family: Verdana;
+    color: black;
+    width: 400px; }
+    body .productos .imgProducto {
+      height: 200px;
+      width: 250px; }
+  body .marco--tablas {
+    display: grid;
+    grid-template-areas: "titulo titulo titulo titulo titulo titulo"  "header header header header header header" "footer footer footer menu menu menu";
+    grid-gap: 10px;
+    background-color: blue;
+    padding: 10px; }
+    body .marco--tablas .marco__titulo {
+      grid-area: titulo; }
+    body .marco--tablas .marco__nombre {
+      grid-area: header; }
+    body .marco--tablas .marco__imagen {
+      grid-area: menu;
+      width: 250px;
+      height: 200px;
+      background-image: url("https://dominicanfriars.org/content/uploads/2015/06/rsz_bl_pier_giorgio-e1434568003584.jpg");
+      background-size: cover;
+      background-repeat: no-repeat; }
+    body .marco--tablas .marco__pie {
+      grid-area: footer; }
+  body h2 {
+    margin-left: 605px; }
+  body .containerGrid > div {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px; }
+  body .primeraTransicion {
+    width: 200px;
+    height: 300px;
+    background-size: 200px, 300px;
+    transition: width 2s, height 2s, background-size 2s; }
+  body .primeraTransicion:hover {
+    width: 400px;
+    height: 400px; }
+  body img {
+    width: 200px;
+    height: 300px;
+    transition: all 2s; }
+    body img img:hover {
+      width: 300px;
+      height: 400px; }
+  body .tituloAlto {
+    font-size: 2em; }
+  body .tituloChico {
+    font-size: 1.3em; }
+  body h1:hover {
+    color: green; }
+  body h2:hover {
+    color: red; }
+  body .ListaCuadros {
+    list-style-type: square; }
+  body .FuenteFantasy {
+    font-family: fantasy; }
+  body .FuenteAclonica {
+    font-family: 'Aclonica', sans-serif; }
+  body .FuenteBungeeShade {
+    font-family: 'Bungee Shade', cursive; }
+  body .FuenteFraunces {
+    font-family: 'Fraunces', serif; }
+
+/*este el style aplicado a la pagina servicios*/
+.fuente-3 {
+  font-size: 33.33333px; }
+
+.fuente-4 {
+  font-size: 25px; }
+
+.fuente-5 {
+  font-size: 20px; }
+
+.carpinteria-icon {
+  background-image: url("../multimedia/carpinteria.jpg"); }
+
+.servicio-icon {
+  background-image: url("../multimedia/servicio.jpg"); }
+
+.carpinteros-icon {
+  background-image: url("../multimedia/carpinteros.jpg"); }
+
+.medio {
+  display: inline;
+  width: 200px;
+  height: 200px; }
+
+.fila {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
